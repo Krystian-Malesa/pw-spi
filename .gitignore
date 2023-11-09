@@ -1,0 +1,11 @@
+# ignore directory temp
+/temp
+
+
+# all directory in floder
+temp/
+
+#all files 
+*.txt
+
+/temp/*.js
