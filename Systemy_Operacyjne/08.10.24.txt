@@ -1,0 +1,45 @@
+Polling loop - odpytywanie ka
+
+Interrupt - akcja przerwania wykonywania aktualnie wykonywanego kodu przez procesor, w celu obsługi innego zdarzenia.
+
+Przerwania są powrzechnie używane głównie do:
+-Timerów sprzętowych
+-Przesyłania danych 
+-Interfejsów komunikacyjnych (np. port szeregowy, ethernet)
+-Obsługi zdarzeń urządzeń peryferyjnych 
+-obsługi innych zdarzeń zależynch od czasu
+
+Przerwania okresowe są stosowane:
+-przetworników analogowo-cyfrowych
+-enkoderów inkrementalnych
+-(w ogólności) wejść GPIO
+
+Przerwania sprzętowe są obsługiwane wewnątrz jądra (przez sterownik) 
+cat /proc/interrupts
+
+Przerwanie programowe jest generowane przez działanie programu na procesorze
+Specjalnym przypadkiem przerwań jest emulacja insturkcji, które nie są sprzętowo wspierane na niektórych platformach.
+
+
+W przestrzeni user-space istnieje mechanizm analogiczny do przerwań
+Przykłady sygnałów:
+SIGSEGV - gdy coś podpisujemy z pamięcią w naszym programie 
+SIGFPE - dzielenie przez zero
+
+
+
+PUTTY 192.168.48.18 u15 u15 
+
+man -manual     #pomoc do programów (poleceńm ale nie tylko)
+man 3 fopen     #pomoc dotyczaca wywołań biblotek systemowych (do programowania)
+id              #inforumje o tym jakim uzytkownikiem jesteśmy (do jakich grup przynależymy)
+w               #pokazuje kto sie zalogowany
+cd, pwd, ls
+
+
+
+
+
+
+
+
